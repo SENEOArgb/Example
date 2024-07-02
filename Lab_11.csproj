@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Model\Новая папка\**" />
+    <EmbeddedResource Remove="Model\Новая папка\**" />
+    <None Remove="Model\Новая папка\**" />
+    <Page Remove="Model\Новая папка\**" />
+  </ItemGroup>
+
+</Project>

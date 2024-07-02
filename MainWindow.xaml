@@ -1,0 +1,17 @@
+﻿<Window x:Class="Lab_11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_11"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu>
+            <MenuItem x:Name="Users" Header="Пользователи" Click="Users_onClick"></MenuItem>
+            <MenuItem x:Name="Orders" Header="Заказы" Click="Orders_onClick"></MenuItem>
+            <MenuItem x:Name="Spisok" Header="Список" Click="Spisok_onClick"></MenuItem>
+        </Menu>
+        <Button Content="Выйти из приложения" HorizontalAlignment="Center" Margin="0,320,0,0" VerticalAlignment="Top" FontSize="17" Height="51" Width="190" Click="Exit_OnClick"/>
+    </Grid>
+</Window>
